@@ -82,7 +82,6 @@ footer		{ position: fixed; right:0; 		bottom:0; padding:10px; margin:0 10px 10px
 
 /* Style
 -------------------------------------------------- */
-html 		{ /*background: url(http://thegreatdiscontent.com/-/2012/img/thomas/rosie-aprilbrimer.jpg?full=-/2012/img/thomas/rosie-aprilbrimer.large.jpg) no-repeat center center fixed;*/ -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 h1			{ color: #fff;  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; background-color:rgba(40,40,40, 1); }
 h2			{ color:rgba(255, 255, 255, 1); text-shadow: 1px 1px 2px rgba(0,0,0,0.8);}
 p#compliment{ color:rgba(255, 255, 255, 1); text-shadow: 1px 1px 2px rgba(0,0,0,1);}
@@ -108,8 +107,6 @@ p#compliment{ color:rgba(255, 255, 255, 1); text-shadow: 1px 1px 2px rgba(0,0,0,
 
 #moreButton:hover{ border:none; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
-
-
 footer,
 #imageCredit	{ background-color:rgba(0,0,0,0.7); }
 footer p,
@@ -117,4 +114,4 @@ footer p,
 footer a,
 #imageCredit a 	{ color:rgba(255, 255, 255, 1); }
 footer a:hover,
-#imageCredit a:hover	{ color:rgba(226, 31, 89, 1);}
+#imageCredit a:hover { color:rgba(226, 31, 89, 1); }

@@ -16,9 +16,14 @@ function newCompliment(){
 	$("#compliment").html(compliment_for_users);
 
 	$('html').css('background', 'url('+image_to_inspire[0]+') no-repeat center center fixed');
+	$('html').css('background-size', 'cover');
+	$('html').css('-o-background-size', 'cover');
+	$('html').css('-ms-background-size', 'cover');
 	$("#byWho").html(image_to_inspire[1]);
 	$("#imageCredit a").attr("href", image_to_inspire[2]);
-	
 }
 
+
 $(document).ready(newCompliment);
+
+
