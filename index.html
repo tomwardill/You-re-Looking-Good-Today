@@ -1,65 +1,50 @@
-<html>
-
-	<head>
-		<title>My, aren't you looking good today?</title>
-		
-		    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../assets/css/lookinggood.css" rel="stylesheet">
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!DOCTYPE html>
+<html lang="en" class="inspire">
+<head>
+	<meta charset="utf-8" />
+	<title>My, aren't you looking good today?</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
 	
-	<script type="text/javascript">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--Typekit -->
+	<script type="text/javascript" src="http://use.typekit.com/esa8vjn.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-26768435-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-	</head>
-
-	<body>
-		<div class="container">
-			<div class="hero-unit">
-				<h1 id="greeting">Hello!</h1>
-				<p id="compliment">Looking good there!</p>
-				<p id="moreButton"><a class="btn btn-primary btn-large" href="javascript:newCompliment();">I need more &raquo;</a></p>
-			</div>
+<body>
+	<div id="container">
+		<h1 class="hide">Your Looking Good Today</h1>
+		
+		<section>
+			<h2 id="greeting">Hello!</h2>
+			<p id="compliment">Looking good there!</p>
+			<a id="moreButton" href="javascript:newCompliment();">I need more</a>
 			
-			<footer>
-			Thrown together by <a href="http://twitter.com/tomwardill">@tomwardill</a>. Don't expect great things, but feel good about yourself.
-			</footer>
-		</div>
+		</section>
 		
-		
-		<!-- Le javascript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="../assets/js/bootstrap.js"></script>
-		<script src="../assets/js/lookinggood.js"></script>
-	</body>
-	
+		<footer>
+			<p id="imageCredit">Image by <a href="#"><span id="byWho"></span></a></p>
+			<p>Thrown together by <a href="http://twitter.com/tomwardill">@tomwardill</a> and <a href="http://twitter.com/vipickering">@vipickering</a>.</p>
+			<p>Don't expect great things, but feel good about yourself.</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26768435-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="assets/js/lookinggood.js"></script>
+</body>
 </html>
